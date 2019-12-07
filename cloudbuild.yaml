@@ -21,8 +21,3 @@ steps:
     name: "securego/gosec"
     args: ["./..."]
     env: ["GOPATH=."]
-
-  - id: your_step_here
-    name: "gcr.io/cloud-builders/go"
-    args: ["run","helloworld"]
-    env: ["GOPATH=."]
